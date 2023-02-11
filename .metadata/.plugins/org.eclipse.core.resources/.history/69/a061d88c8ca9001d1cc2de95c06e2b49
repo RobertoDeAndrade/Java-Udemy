@@ -1,0 +1,13 @@
+package exemplos.aula;
+
+import java.util.List;
+
+public class ExemploList {
+
+	public static void main(String[] args) {
+
+		List<Integer> list;
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package exercicios.fixacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Aluno;
+
+public class ProblemaAprovados {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Quantos alunos serão digitados? ");
+		int n = sc.nextInt();
+
+		Aluno[] aluno = new Aluno[n];
+
+		for (int i = 0; i < aluno.length; i++) {
+			System.out.println("Digite o nome, a primeira e a segunda nota do " + (i + 1) + "o aluno:");
+			aluno[i].setNome(sc.next());
+			aluno[i].setNota1(sc.nextDouble());
+			aluno[i].setNota2(sc.nextDouble());
+		}
+
+		for (int i = 0; i < aluno.length; i++) {
+			System.out.println(aluno[i]);
+		}
+
+		sc.close();
+	}
+}
