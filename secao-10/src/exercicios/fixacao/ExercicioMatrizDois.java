@@ -23,7 +23,7 @@ public class ExercicioMatrizDois {
 			}
 		}
 
-		//For somente para a matriz ficar visual
+		//for somente para a matriz ficar visual
 		for (int i = 0; i < mat.length; i++) {
 			System.out.println();
 			for (int j = 0; j < mat[i].length; j++) {
