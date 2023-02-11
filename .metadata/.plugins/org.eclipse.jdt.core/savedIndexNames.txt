@@ -1,7 +1,0 @@
-INDEX VERSION 1.131+C:\Users\rober\Workspace\Udemy\ws-curso-java-udemy\.metadata\.plugins\org.eclipse.jdt.core
-4105805352.index
-1865797976.index
-996709552.index
-1678148537.index
-274232588.index
-2210311870.index
