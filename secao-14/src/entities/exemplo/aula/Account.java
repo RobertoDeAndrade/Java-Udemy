@@ -1,4 +1,4 @@
-package entities;
+package entities.exemplo.aula;
 
 public class Account {
 

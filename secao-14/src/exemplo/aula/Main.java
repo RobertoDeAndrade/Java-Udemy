@@ -2,9 +2,9 @@ package exemplo.aula;
 
 import java.util.Locale;
 
-import entities.Account;
-import entities.BusinessAccount;
-import entities.SavingsAccount;
+import entities.exemplo.aula.Account;
+import entities.exemplo.aula.BusinessAccount;
+import entities.exemplo.aula.SavingsAccount;
 
 public class Main {
 
@@ -23,6 +23,7 @@ public class Main {
 
 		// DOWNCASTING
 
+		System.out.println("Downcasting");
 		BusinessAccount acc4 = (BusinessAccount) acc2; // Precisa fazer o casting manual
 		acc4.loan(100.0);
 
@@ -35,11 +36,12 @@ public class Main {
 		if (acc3 instanceof SavingsAccount) {
 			SavingsAccount acc5 = (SavingsAccount) acc3;
 			acc5.updateBalance();
-			System.out.println("Update!\n");
+			System.out.println("Update!");
 		}
 		
 		// OVERRIDE
 		
+		System.out.println("\n@Override");
 		Account acc6 = new Account(1006, "Alex", 1000.0);
 		acc6.withdraw(200.0);
 		System.out.println(acc6.getBalance());
@@ -50,9 +52,22 @@ public class Main {
 		
 		// SUPER
 		
+		System.out.println("\nSuper:");
 		Account acc8 = new BusinessAccount(1008, "Bob", 1000.0, 500.0);
 		acc8.withdraw(200);
 		System.out.println(acc8.getBalance());
+		
+		// POLIMORFISMO
+		
+		System.out.println("\nPolimorfismo:");
+		Account x = new Account(1020, "Alex", 1000.0);
+		Account y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
+		
+		x.withdraw(50.0);
+		y.withdraw(50.0);
+		
+		System.out.println(x.getBalance());
+		System.out.println(y.getBalance());
 		
 	}
 
