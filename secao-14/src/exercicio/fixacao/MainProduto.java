@@ -12,7 +12,7 @@ import entities.exercicio.fixacao.Produto;
 import entities.exercicio.fixacao.ProdutoImportado;
 import entities.exercicio.fixacao.ProdutoUsado;
 
-public class Principal {
+public class MainProduto {
 
 	public static void main(String[] args) throws ParseException {
 
