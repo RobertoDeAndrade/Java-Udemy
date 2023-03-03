@@ -5,10 +5,10 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-import model.entities.BrazilTaxService;
 import model.entities.CarRental;
-import model.entities.RentalService;
 import model.entities.Vehicle;
+import model.services.BrazilTaxService;
+import model.services.RentalService;
 
 public class Exemplo1 {
 
