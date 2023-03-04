@@ -11,7 +11,7 @@ import model.entities.Installment;
 import model.services.ContratcService;
 import model.services.PaypalService;
 
-public class Exercicio1 {
+public class ExercicioFixacao {
 
 	public static void main(String[] args) throws ParseException {
 		
