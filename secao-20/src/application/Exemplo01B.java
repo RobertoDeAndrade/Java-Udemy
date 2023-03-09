@@ -7,7 +7,7 @@ import java.util.Locale;
 
 import entities.Product;
 
-public class Exemplo02 {
+public class Exemplo01B {
 
 	public static void main(String[] args) {
 
