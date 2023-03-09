@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Locale;
 
 import entities.Product;
-import util.ProductPredicate;
 
 public class Exemplo02B {
 
